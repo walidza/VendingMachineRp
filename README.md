@@ -1,7 +1,7 @@
 # VendingMachineRp
 ###### Role play vending machine system
 
-###### This script created by ***walidDEV***
+###### This script created by `walidDEV`
 
 ###### You can edit the commands and all the code
 ###### But you can't attribute script to your name
@@ -18,6 +18,6 @@
 
 ###### If you want to report a problem with the script you can contact me via
 
-###### - Facebook  https://www.facebook.com/profile.php?id=100010749547205
+###### - `Facebook`  https://www.facebook.com/profile.php?id=100010749547205
 
-###### - Discord  ُُُ‘ًًً!偏差-WٌٌaLٌٌiD-ُُプロ✌#8944
+###### - `Discord`  ُُُ‘ًًً!偏差-WٌٌaLٌٌiD-ُُプロ✌#8944
