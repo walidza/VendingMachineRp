@@ -7,7 +7,7 @@
 ###### But you can't attribute script to your name
 
 # command list
-> addvendingaddvending [create new vending machine]-"TrialAdmin"
+> addvending [create new vending machine]-"TrialAdmin"
 
 > showvending [show all the vending machine in server]-"TrialAdmin"
 
