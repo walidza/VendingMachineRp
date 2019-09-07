@@ -1,0 +1,18 @@
+
+<meta>
+  <info author="WalidZa" name="vid" version="1.0.0" type="script" description="vid" edf:definition="edf/hp.edf"/>/>
+
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="server.lua" type="server"/>
+	<oop>true</oop>
+	
+    <file src="img/1.png" />
+	<file src="img/8.png" />
+	<file src="img/11.png" />
+	<file src="img/12.png" />
+	<file src="img/13.png" />
+	<file src="img/14.png" />
+	<file src="img/100.png" />
+	<file src="img/101.png" />
+
+</meta>
