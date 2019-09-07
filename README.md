@@ -1,23 +1,23 @@
 # VendingMachineRp
-Role play vending machine system
+###### Role play vending machine system
 
-This script created by ***walidDEV***
+###### This script created by ***walidDEV***
 
-You can edit the commands and all the code
-But you can't attribute script to your name
+###### You can edit the commands and all the code
+###### But you can't attribute script to your name
 
 # command list
-- addvendingaddvending [create new vending machine]-"TrialAdmin"
+###### - addvendingaddvending [create new vending machine]-"TrialAdmin"
 
-- showvending [show all the vending machine in server]-"TrialAdmin"
+###### - showvending [show all the vending machine in server]-"TrialAdmin"
 
-- delvending [remove vending machine ID]-"TrialAdmin"
+###### - delvending [remove vending machine ID]-"TrialAdmin"
 
-- delallvending [ remove all vinding machine in the server]-"LeadScripter"
+###### - delallvending [ remove all vinding machine in the server]-"LeadScripter"
 
 
-If you want to report a problem with the script you can @ contact me via
+###### If you want to report a problem with the script you can contact me via
 
-- Facebook  https://www.facebook.com/profile.php?id=100010749547205
+###### - Facebook  https://www.facebook.com/profile.php?id=100010749547205
 
- - Discord  ُُُ‘ًًً!偏差-WٌٌaLٌٌiD-ُُプロ✌#8944
+###### - Discord  ُُُ‘ًًً!偏差-WٌٌaLٌٌiD-ُُプロ✌#8944
