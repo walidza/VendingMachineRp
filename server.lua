@@ -12,7 +12,22 @@ command list (
 --delvending [remove vending machine ID]-"TrialAdmin"
 --delallvending [ remove all vinding machine in the server]-"LeadScripter"
 )
---]]
+
+rank list (
+isPlayerLeadScripter
+isPlayerScripter
+isPlayerLeadAdmin
+isPlayerSeniorAdmin
+isPlayerAdmin
+isPlayerTrialAdmin
+isPlayerSupportManager
+isPlayerSupporter
+isPlayerVCTMember
+
+
+
+)
+]]--
 
 
 maxe = 1
@@ -30,7 +45,9 @@ addCommandHandler("addvending", function(thePlayer, commandName, id)
         local x, y, z = objectPosition:getX(), objectPosition:getY(), objectPosition:getZ()
         local adminUsername = getElementData(thePlayer, "account:username")
         local adminTitle = exports.global:getPlayerAdminTitle(thePlayer)
-        local objectMachineFood = createObject(1776, x, y, z, 0, 0, rot-180)
+        local objectMachineFood = createObject(1776, x, y, z-0.2, 0, 0, rot-180)
+        local theMarker = createMarker(objectMachineFood.matrix.position + objectMachineFood.matrix.right * 0.3 - objectMachineFood.matrix.forward * 1, "cylinder", 0.30000001, 255, 255, 0, 0)
+        setElementParent(theMarker, allMarkers)
         local query = mysql:query_free("INSERT INTO machins (x,y,z,rotation,dimension,interior) VALUES ('"..x.."','"..y.."',' "..z.."',' "..rot.."',' "..dim.."',' "..int.."')")
         if query then
           query = mysql:query("SELECT ID FROM machins ORDER BY ID DESC LIMIT 1")
@@ -97,8 +114,8 @@ function loadSQL()
         local rot = tonumber(row["rotation"]) 
         local dim = tonumber(row["dimension"])
         local int = tonumber(row["interior"])
-        local objectMachineFood = createObject(1776, x, y, z, 0, 0, rot)
-        local theMarker = createMarker(objectMachineFood.matrix.position + objectMachinFood.matrix.right * 0.3 - objectMachinFood.matrix.forward * 1, "cylinder", 0.30000001, 255, 255, 0, 0)
+        local objectMachineFood = createObject(1776, x, y, z-0.3, 0, 0, rot)
+        local theMarker = createMarker(objectMachineFood.matrix.position + objectMachineFood.matrix.right * 0.3 - objectMachineFood.matrix.forward * 1, "cylinder", 0.30000001, 255, 255, 0, 0)
         setElementParent(theMarker, allMarkers)
         setElementDimension(objectMachineFood, dim)
         setElementInterior(objectMachineFood, int)
