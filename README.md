@@ -1,4 +1,4 @@
-# VendingMachineRp
+# VendingMachine
 ###### Role play vending machine system
 
 ###### This script created by `walidDEV`
